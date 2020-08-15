@@ -3,14 +3,14 @@
         xmlns:gap   = "http://phonegap.com/ns/1.0"
         xmlns:android="http://schemas.android.com/apk/res/android" 
         xmlns:cdv="http://cordova.apache.org/ns/1.0"
-        id          = "com.chatty.jakksoft.sp"
+        id          = "com.chatty.fugapedia"
         versionCode = "10"
-        version     = "1.0.0">
+        version     = "1.1.0">
 
-    <name>ТЕСТ. #СП4</name>
+    <name>ТЕСТ. ФугаПедия</name>
 
     <description>
-        SP4 app - strana podpischikov 4
+        fugapedia app
     </description>
 
     <author>Tadapp</author>
@@ -30,7 +30,7 @@
     <preference name='WindowsToastCapable' value='true' />
 
     <preference name="SplashMaintainAspectRatio" value="true" />
-    <preference name="SplashScreenSpinnerColor" value="#007BFF" />
+    <preference name="SplashScreenSpinnerColor" value="#0076F5" />
     
     <platform name="android">
       <edit-config file="app/src/main/AndroidManifest.xml" mode="merge" target="/manifest/application">
@@ -44,13 +44,13 @@
         <icon src="res/android/icon/98dee42962500016f560efe8c859dd86.png" density="mdpi" />
         <icon src="res/android/icon/b512dddaead36726f14a0b5e0d97566a.png" density="hdpi" />
         <icon src="res/android/icon/91462a05b7de11a7a2149271953ae7c4.png" density="xhdpi" />
-        <icon src="res/android/icon/e91090f9f57806f02c2ece6f7c32a793.png" density="xxhdpi" />
-        <icon src="res/android/icon/1069b7254ed55fddfe7844da333dbb36.png" density="xxxhdpi" />
+        <icon src="res/android/icon/d44ce92184d7cf7e444e7e85ac0a9768.png" density="xxhdpi" />
+        <icon src="res/android/icon/dc7a66d27683b12ee10972ce8964e1b1.png" density="xxxhdpi" />
 
-        <splash src="res/android/screen/96d31e74a4bed313cf48d0ec9910141b.png" density="port-hdpi"/>
+        <splash src="res/android/screen/9b32d7c0215f2d153695825760371b47.png" density="port-hdpi"/>
         <splash src="res/android/screen/0756f09be5bf136cbbbbdcd5c8dab6aa.png" density="port-ldpi"/>
         <splash src="res/android/screen/ed61f9187fb1a084186235e425472225.png" density="port-mdpi"/>
-        <splash src="res/android/screen/35ba930555a1988e652f395b04a824b1.png" density="port-xhdpi"/>
+        <splash src="res/android/screen/db3fe38e0a4088e5ef4c8eff39f71a5c.png" density="port-xhdpi"/>
     </platform>
 
     <platform name="ios">
